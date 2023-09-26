@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef's Kitchen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+           <a href="Index.html"> <img class="logo2" src="./Photos/logo2.jpg" height="150px" alt="Logo"></a>
+            
+            
+          
+
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <ul class="nav-links">
+                    <li class="nav-link"><a href="Index.html">Home</a></li>
+                    <li class="nav-link"><a href="menu.html">Menu</a></li>
+                    <li class="nav-link"><a href="./Lunch.html">Lunch</a></li>
+                    <li class="nav-link"><a href="./dinner.html">Dinner</a></li>
+                    <li class="nav-link"><a href="contact.html">Contact</a></li>
+    
+    
+                </ul>
+
+
+            </ul>
+
+        </nav>
+
+    </header>   
+
+    <main>
+        <section class="welcome">
+            <div class="introduction">
+                <div class="intro-text">
+                    
+                    
+
+                    <h1>Lunch menu</h1>
+                    <p>Savor Chef's Kitchen's diverse lunch menu. Enjoy Gourmet Sliders Trio, Signature Ham and Mash, Eau de Fish, Grilled Chicken Sandwich, Greek Bowl, or a Bacon and Eggs Extravaganza. Each dish reflects Chef's Kitchen's dedication to culinary excellence. Taste the difference today!</p>
+
+                    <a href="./Lunch.html"><img src="./Photos/lunch/pork-and-bean-burrito-bowl-109208-1.jpeg"  alt="gourmet-chef"></a>
+
+                    <div class="container">
+                        <h1>Takeout Order Form</h1>
+                        <form action="submit_order.php" method="post">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" required>
+                
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                
+                            <label for="address"><br> Delivery Address:</label>
+                            <input type="text" id="address" name="address" required>
+                
+                            <label for="menu">Menu Item:</label>
+                            <select id="menu" name="menu" required>
+                                <option value="" disabled selected>Select Menu Item</option>
+                                <option value="sliders">sliders</option>
+                                <option value="ham and mash potatoes">ham and mash potatoes</option>
+                                <option value="eau de fish">eau de fish</option>
+                                <option value="greekbowl">greek bowl</option>
+                                <option value="bacon egg meal">bacon egg meal</option>
+                                <option value="chicken sandwich">chicken sandwich</option>
+                                <option value="marinara habanero">marinara habanero</option>
+                                <option value="chicken skillet">chicken skillet</option>
+                                <option value="eau de guac">eau de guac</option>
+                                <option value="tender sirloin steak">tender sirloin steak</option>
+                                <option value="lobster">lobster</option>
+                                <option value="beef wellington">beef wellington</option>
+                            </select>
+                
+                            <label for="quantity">Quantity:</label>
+                            <input type="number" id="quantity" name="quantity" min="1" required>
+                
+                            <input type="submit" value="Place Order">
+                        </form>
+                <h1>Dinner</h1>
+                <p class="sentence">This gourmet dinner is a symphony of flavors, starting with a zesty marinara habanero sauce. A succulent chicken skillet follows, offering smoky richness. A refreshing "eau de guac" cleanses the palate, leading to a perfectly tender sirloin steak. A plump lobster dish exudes maritime luxury, and a decadent beef Wellington concludes the feast with a crescendo of taste and texture. Each course showcases culinary mastery for an unforgettable dining experience.</p>
+                <a href="./dinner.html"><img src="./Photos/gourmet-chef1.jpg" alt=""></a>
+
+                
+                </div>
+                
+            </div>
+       
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

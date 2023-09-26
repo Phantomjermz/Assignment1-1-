@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./Photos/good.avif);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+    
+}
+
+
+
+
+header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container, .nav-links{
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+
+}
+.nav{
+    flex: 2;
+    display: inline block;
+ 
+}
+
+.nav-links li{
+    padding: 0 ;
+    margin-right: 10px;
+    list-style: none;
+
+   
+}
+
+.nav-links li a{
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.nav-links li a:hover{
+    color: red;
+}
+
+.welcome{
+    
+    width: 90%;
+    margin: auto;
+    min-height: 20px;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+    
+}
+
+.cover{
+    width: 500px;
+    margin-top: 60px;
+    
+   
+}
+.intro-text h1{
+    font-size: 44px;
+    margin-top: 80px;
+    
+}
+.intro-text{
+    text-align: center;
+    font-size: 20px;
+    width: 90vh;
+
+ 
+}
+
+.reserve{
+    margin-left: 400x ;
+   
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+.single-menu img{
+    height: 160px;
+}
+
+.main{
+    width: 1170px;
+    margin: 100px auto ;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 80;
+}
+
+.section-title h2{
+    text-transform: capitalize ;
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+}
+
+.section-title h2::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: red;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.menus{
+    align-items: center;
+    text-align: center;
+}
+
+div .cover p{
+    text-align: right;
+    font-size: 200px;
+    width: 90vh;
+    
+    
+}
+
+#sentence{
+    text-align: center;
+    font-size: large;
+}
+
+.card-content{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.card-content h1 , form{
+    margin-left: 100px ;
+}
+
+div .reserve{
+    margin-left: 100px;
+    
+}
+
+
+    
+
+
